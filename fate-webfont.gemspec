@@ -6,12 +6,12 @@ require 'fate/webfont/version'
 Gem::Specification.new do |spec|
   spec.name          = "fate-webfont"
   spec.version       = Fate::Webfont::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.authors       = ["Paul Cosgrove"]
+  spec.email         = ["pacosgrove1@gmail.com"]
+  spec.description   = %q{Fate Core Glyphs as a webfont}
+  spec.summary       = %q{Fate Core Glyphs as a webfont}
+  spec.homepage      = "http://aniki21.blogspot.co.uk"
+  spec.license       = "CC-BY-SA"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

@@ -1,0 +1,39 @@
+/*
+ * The Fate Core font is (c) Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.
+ */
+//= depend_on_asset "fate_core_font-webfont.eot"
+//= depend_on_asset "fate_core_font-webfont.woff"
+//= depend_on_asset "fate_core_font-webfont.svg"
+//= depend_on_asset "fate_core_font-webfont.ttf"
+@font-face {
+    font-family: 'FateCoreGlyphs';
+    src: url('fate_core_font-webfont.eot');
+    src: url('fate_core_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fate_core_font-webfont.woff') format('woff'),
+         url('fate_core_font-webfont.ttf') format('truetype'),
+         url('fate_core_font-webfont.svg#fate_core_glyphsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Common styling */
+.fate{
+  display:inline-block;
+  font-family:FateCoreGlyphs;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:greyscale;
+}
+
+/* The Four Actions */
+.fate.fate-overcome:before{ content: "O"; }
+.fate.fate-create-advantage:before{ content: "C"; }
+.fate.fate-attack:before{ content: "A"; }
+.fate.fate-defend:before{ content: "D"; }
+
+/* Dice Rolls */
+.fate.fate-dice-zero:before{ content: "0"; }
+.fate.fate-dice-plus:before{ content: "+"; }
+.fate.fate-dice-minus:before{ content: "-"; }
