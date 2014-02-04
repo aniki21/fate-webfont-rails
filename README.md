@@ -1,24 +1,22 @@
 # Fate::Webfont
 
-TODO: Write a gem description
+A Font Awesome-style Rails gem to use Fate Core Glyphs.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'fate-webfont'
+    gem 'fate-webfont', :github => 'aniki21/fate-webfont-rails.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install fate-webfont
-
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line to your application.css file
+
+ *= require fate-webfont
 
 ## Contributing
 
