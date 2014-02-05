@@ -18,6 +18,26 @@ Add the following line to your application.css file
 
     *= require fate-webfont
 
+or if you use SASS/SCSS
+
+    @import 'fate-webfont';    
+
+To add an icon, use the following HTML markup:
+
+    <i class="fate fate-[icon-name]"></i>
+
+where [icon-name] is one of the following:
+
+* overcome
+* create-advantage
+* attack
+* defend
+* die-zero
+* die-plus
+* die-minus
+* stress-o
+* stress-x
+
 ## Contributing
 
 1. Fork it
@@ -53,4 +73,4 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org>
 
 ### The Fate Core font
-The Fate Core font is (c) Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller.
+The Fate Core font is (c) Evil Hat Productions, LLC and is used with permission. The Four Actions icons were designed by Jeremy Keller. http://www.faterpg.com/licensing/
